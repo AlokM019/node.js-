@@ -1,0 +1,16 @@
+{
+  "name": "npmmodule",
+  "version": "1.0.0",
+  "description": "npm module learnings",
+  "main": "index.js",
+  "type" : "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alok Maurya",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "validator": "^13.12.0"
+  }
+}
