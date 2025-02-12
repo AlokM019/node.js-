@@ -20,7 +20,8 @@ const server = http.createServer((req, res)=>{
       })
    }
    else{
-      res.writeHead(404)
+      res.statusCode = 500;
+      res.end("Error : Page Not Found")
    }
 })
 

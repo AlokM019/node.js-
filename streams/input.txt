@@ -1,0 +1,1 @@
+<h1>Some data to load on the browser</h1>
